@@ -26,3 +26,7 @@
         group: root
         mode: '0644'
 
+    - name: 
+      debug:
+        msg: echo "webserver installed"
+
