@@ -21,4 +21,8 @@
         mode: '0644'
     
     - name: valid permission
+      shell:
+        owner: root
+        group: root
+        mode: '0644'
 
