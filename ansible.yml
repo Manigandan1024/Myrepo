@@ -30,4 +30,7 @@
       debug:
         msg: echo "webserver installed"
 
-    
+    - name:
+      debug:
+        msg: print "restart the system"
+
