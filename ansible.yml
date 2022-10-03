@@ -1,0 +1,22 @@
+---
+- hosts: webserver
+  
+  tasks:
+
+
+    - name: copy httpd config
+      copy:
+        src: /etc/httpd/sample.txt
+        dest: /etc/httpd/
+        owner: root
+        group: root
+        mode: '0644'
+
+    - name: install httpd 
+      yum:
+        path: /etc/httpd/sample.txt
+        state: present
+        owner: root
+        group: root
+        mode: '0644'
+
