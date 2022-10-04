@@ -2,4 +2,3 @@ Hi this is my first commit
 second commit
 third commit
 updated
-fourth commit
