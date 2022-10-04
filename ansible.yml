@@ -29,6 +29,10 @@
     - name: 
       debug:
         msg: print "Hello world"
+        
+    - name:
+      debug:
+        msg: echo "webserver installed"
 
             
   
